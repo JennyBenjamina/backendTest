@@ -2,9 +2,9 @@
   "name": "server",
   "version": "1.0.0",
   "description": "nodejs server",
-  "main": "server/server.mjs",
+  "main": "server.js",
   "scripts": {
-    "start": "pm2 start server/server.mjs"
+    "start": "node server.js"
   },
   "author": "Jenny",
   "license": "ISC",
